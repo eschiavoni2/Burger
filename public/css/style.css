@@ -3,6 +3,7 @@ li {
   margin: 5px;
   background: #faebd7;
   text-align: center;
+  border-radius: 10px;
 }
 
 .label {
@@ -32,9 +33,11 @@ li {
 }
 h1 {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: white;
 }
 .container {
-  justify-content: center;
   display: flex;
   border: thin dotted black;
   padding: 80px;
@@ -44,10 +47,44 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
-.jumbotron {
-  justify-content: center;
+.add {
+  text-align: center;
+  justify-content: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  background-color: #faebd7;
+  border-radius: 10px;
+  padding: 2%;
+}
+.notD {
+  text-align: center;
+  justify-content: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  background-color: #faebd7;
+  border-radius: 10px;
+  padding: 2%;
+}
+.areD {
+  text-align: center;
+  justify-content: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  background-color: #faebd7;
+  border-radius: 10px;
+  padding: 2%;
+}
+.btnAdd .create-form{
+  justify-content: left;
 }
 body {
   background-image: url(../css/bobs.webp);
-  
+  background-size: cover;
+}
+.fas .fa-hamburger {
+  z-index: 1;
+}
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }

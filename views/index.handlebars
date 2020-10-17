@@ -1,20 +1,20 @@
 <div class="container">
   <div class="jumbotron">
-    <h2>Add a Burger</h2>
+    <h2 class="add">Add a Burger</h2>
     <form class="create-form">
 <body class="background">
       <div class="form-group">
         <label for="ca">Burger Name:</label>
         <input type="text" id="ca" name="burger_name">
       </div>
-      <button type="submit">Add Burger</button>
+      <button class="btnAdd" type="submit">Add Burger</button>
     </form>
   </div>
 </div>
 <h1>Burgers!</h1>
 <div class="flex">
   <div class="side1">
-    <h2>Burgers that are not devoured!</h2>
+    <h3 class="notD">Burgers that are not devoured!</h3>
 
     <ul>
       {{#each burgers}}
@@ -25,7 +25,7 @@
     </ul>
   </div>
   <div class="side2">
-    <h2>Burgers that are devoured!</h2>
+    <h3 class="areD">Burgers that are devoured!</h3>
 
     <ul>
       {{#each burgers}}
