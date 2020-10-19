@@ -105,6 +105,8 @@ li {
   flex-wrap: nowrap;
   margin-left: 10px;
   font-family: cursive;
+  border-color: red;
+  background-color: yellow;
 }
 body {
   background-image: url(../css/bobs.webp);
@@ -121,6 +123,7 @@ label {
   font-family: cursive;
   background-color: transparent;
   margin-left: 5px;
+  border-color: red;
 }
 .dayB {
   display: flex;
