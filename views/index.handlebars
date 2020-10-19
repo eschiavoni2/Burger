@@ -1,20 +1,29 @@
 <div class="container">
   <div class="jumbotron">
-    <h2 class="add">Add a Burger</h2>
-    <form class="create-form">
-<body class="background">
-      <div class="form-group">
-        <label for="ca">Burger Name:</label>
-        <input type="text" id="ca" name="burger_name">
-      </div>
-      <button class="btnAdd" type="submit">Add Burger</button>
-    </form>
+    <div class="conBob">
+      <h1 class="bob"><a href="https://fontmeme.com/bobs-burgers-tv-show-font/"><img
+            src="https://fontmeme.com/permalink/201019/c24ac34a2649f78ee208560ba914dd08.png"
+            alt="bobs-burgers-tv-show-font" border="0"></a></h1>
+    </div>
   </div>
 </div>
-<h1>Burgers!</h1>
+<h2 class="add">
+  Burger of the Day
+  <i class="fas fa-hamburger"></i>
+</h2>
+<form class="create-form">
+
+  <body class="background">
+    <div class="form-group">
+      <label for="ca">Burger Name:</label>
+      <input type="text" id="ca" name="burger_name">
+    </div>
+    <button class="btnAdd" type="submit">Add Burger</button>
+</form>
+
 <div class="flex">
   <div class="side1">
-    <h3 class="notD">Burgers that are not devoured!</h3>
+    <h3 class="notD">Your Burger is Ready!</h3>
 
     <ul>
       {{#each burgers}}
@@ -25,7 +34,7 @@
     </ul>
   </div>
   <div class="side2">
-    <h3 class="areD">Burgers that are devoured!</h3>
+    <h3 class="areD">Burgers Eaten!</h3>
 
     <ul>
       {{#each burgers}}
