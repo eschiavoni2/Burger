@@ -15,6 +15,21 @@ This is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM
 
 * My app stores every burger in a database, whether devoured or not.
 
+## Tech/Framework
+
+* VS code
+
+* Dbeaver
+
+* MySQL
+
+* Express
+
+* Express-handlebars
+
+
 ### Burger GIF
 ![Burger App GIF](burger.gif)
 
+### Created by:
+Erika Zibelnik
