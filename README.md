@@ -16,5 +16,5 @@ This is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM
 * My app stores every burger in a database, whether devoured or not.
 
 ### Burger GIF
-[Check out this gif of the app for a run-through of how it works](../css/burger.gif)
+![Check out this gif of the app for a run-through of how it works](../css/burger.gif)
 
